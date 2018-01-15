@@ -16,7 +16,7 @@ If give you any output no problem, If not, enable VT-x/AMD-v on BIOS.
 - minikube
 - virtualbox
 
-Install Homebrew for MacOS
+**Install Homebrew for MacOS**
 
 First, you’ll need the command-line tools for Xcode installed.
 
@@ -26,25 +26,25 @@ In Terminal run this command
 xcode-select --install
 ```
 
-After, install Homebrew and Homebrew Cask
+**After, install Homebrew and Homebrew Cask**
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Run the following command once you’re done to ensure Homebrew is installed and working properly:
+**Run the following command once you’re done to ensure Homebrew is installed and working properly:**
 
 ```
 brew doctor
 ```
 
-If it is correctly install run this command for install hombrew cask
+**If it is correctly install run this command for install hombrew cask**
 
 ```
 brew install caskroom/cask/brew-cask
 ```
 
-Install Kubectl with Homebrew
+**Install Kubectl with Homebrew**
 
 ```
 curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/darwin/amd64/kubectl
@@ -52,20 +52,19 @@ chmod +x ./kubectl
 sudo mv ./kubectl /usr/local/bin/kubectl
 ```
 
-Install Virtualbox
+**Install Virtualbox**
 
 ```
 brew cask install virtualbox
 ```
 
-Install Docker
+**Install Docker**
 
 ```
 brew cask install docker
 ```
 
-
-Install Docker Toolbox
+**Install Docker Toolbox**
 
 ```
 brew cask install dockertoolbox
@@ -78,13 +77,13 @@ brew cask install dockertoolbox
     docker-machine --version        # docker-machine version x.xx.x, build xxxxxxx
 
 
-Create Local Development Machine for Docker
+**Create Local Development Machine for Docker**
 
 ```
 docker-machine create --driver virtualbox dev
 ```
 
-Install Minikube
+**Install Minikube**
 
 ```
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.24.1/minikube-darwin-amd64
