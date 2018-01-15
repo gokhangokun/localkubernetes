@@ -5,7 +5,9 @@ This Guide for MacOS Users
 Minikube requires that VT-x/AMD-v virtualization is enabled in BIOS.
 
 You can check your computer status with : 
+```
     sysctl -a | grep machdep.cpu.features | grep VMX
+```
 
 If give you any output no problem, If not, enable VT-x/AMD-v on BIOS.
 
