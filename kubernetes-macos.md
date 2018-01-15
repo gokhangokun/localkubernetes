@@ -81,7 +81,7 @@ brew cask install dockertoolbox
 Create Local Development Machine for Docker
 
 ```
-docker-machine create --driver virtualbox default
+docker-machine create --driver virtualbox dev
 ```
 
 Install Minikube
